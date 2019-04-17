@@ -1,12 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import cartReducer from "./Apps/cart/cartReducer";
+import { Provider } from "react-redux";
+import { createStore } from "redux";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//createStore: which allows us to create a store that holds all of our state tree of our app
+//createStore component takes a reducer as a parameter, we called it cartReducer
+//Reducers specify how the application’s state changes in response to actions sent to the store.
+const store = createStore(cartReducer);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+//Provider: which will basically wrap our App component. It will simply allow us to pass our store into the props
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
+
 serviceWorker.unregister();
