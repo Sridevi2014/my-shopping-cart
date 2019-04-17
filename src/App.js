@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./Apps/Navbar";
 import Home from "./Apps/Home";
 import Cart from "./Apps/Cart";
-
+//class Component
 class App extends Component {
   render() {
     return (
