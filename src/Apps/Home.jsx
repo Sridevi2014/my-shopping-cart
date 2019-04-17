@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { addToCart } from "./cart/cartActions";
-
+//class component
 class Home extends Component {
   //handleClick function
   handleClick = id => {
