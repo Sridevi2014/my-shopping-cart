@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 //import { addShipping } from './actions/cartActions'
-
+//class function
 class Recipe extends Component {
   componentWillUnmount() {
     if (this.refs.shipping.checked) this.props.substractShipping();
