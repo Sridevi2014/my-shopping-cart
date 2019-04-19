@@ -1,6 +1,6 @@
 {
   "homepage": "https://Sridevi2014.github.io/my-shopping-cart",
-  "name": "my-shopping-cart",
+  "name": "y",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,5 +30,19 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.0.1"
+  },
+  "description": "This simple application prototype shows how we can use React and Redux to build a friendly user experience with instant visual updates.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sridevi2014/my-shopping-cart.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "sridevi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sridevi2014/my-shopping-cart/issues"
   }
 }
