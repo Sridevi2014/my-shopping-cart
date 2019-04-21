@@ -37,10 +37,7 @@
     "type": "git",
     "url": "git+https://github.com/Sridevi2014/my-shopping-cart.git"
   },
-  "keywords": [
-    "test"
-  ],
-  "author": "sridevi",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sridevi2014/my-shopping-cart/issues"
