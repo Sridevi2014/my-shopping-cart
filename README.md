@@ -21,6 +21,8 @@ This simple application prototype shows how we can use React and Redux to build 
 ```bash
 npm install
 ```
+npm install --save react-router-dom, 
+npm install redux react-redux
 
 # Quick Start
 
