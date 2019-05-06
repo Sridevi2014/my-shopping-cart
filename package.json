@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Sridevi2014.github.io/my-shopping-cart",
   "name": "y",
   "version": "0.1.0",
   "private": true,
@@ -15,9 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy:": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,19 +24,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  },
-  "description": "This simple application prototype shows how we can use React and Redux to build a friendly user experience with instant visual updates.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sridevi2014/my-shopping-cart.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sridevi2014/my-shopping-cart/issues"
-  }
+  ]
 }
